@@ -1,0 +1,49 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+header {
+	margin: 0px;
+	padding: 0px;
+	background-color: #ffe700;
+    background-repeat: repeat; 
+    background-position: center;
+    background-attachment: fixed;
+	text-transform: uppercase;
+	font-size: 28px;
+
+}
+
+.first-squad, .bench-players {
+	background-color: blue;
+	width: 1200px;
+	margin: 0 auto;
+	padding: 30px 0;
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.player {
+	padding: 15px;
+	border-style: none;
+	border-spacing: 0px;
+	border-color: black;
+	border-collapse: collapse;
+	font-size: 16px;
+    font-weight: bold;
+}
+
+p {
+	background-color: #ffe700;
+	margin: 0;
+}
+
+hr {
+	border: solid 5px #ffe700;
+}
+
